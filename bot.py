@@ -18,9 +18,9 @@ TOKEN = os.getenv("TOKEN")
 GROUP_LINK = "https://t.me/taskpaybot12"  # Replace with your actual group link
 
 # Admin ID (Replace with your own Telegram ID to receive withdrawal requests)
-ADMIN_ID = int(os.getenv("ADMIN_ID"))  # Replace this with your Telegram user ID
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # Replace this with your Telegram user ID
 
-WITHDRAWAL_ADMIN_ID = int(os.getenv("WITHDRAWAL_ADMIN_ID"))  # The admin who will handle withdrawals
+WITHDRAWAL_ADMIN_ID = int(os.getenv("WITHDRAWAL_ADMIN_ID", "0"))  # The admin who will handle withdrawals
 
 # Initialize bot application
 app = Application.builder().token(TOKEN).build()
