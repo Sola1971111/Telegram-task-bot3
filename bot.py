@@ -1,5 +1,4 @@
 import logging
-import sqlite3
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 from telegram.ext import JobQueue
@@ -9,6 +8,7 @@ import datetime
 import random
 import asyncio  # Needed for async delays
 import requests
+import os
 
 
 # Replace with your Bot API Token from BotFather
