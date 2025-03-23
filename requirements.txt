@@ -2,3 +2,4 @@ aiohttp
 psycopg2-binary
 python-telegram-bot==20.0,<21.0
 python-dotenv
+requests
