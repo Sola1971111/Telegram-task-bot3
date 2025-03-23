@@ -12,7 +12,7 @@ import os
 
 
 # Replace with your Bot API Token from BotFather
-TOKEN = os.getenv("TOKEN")
+TOKEN = "7631667773:AAF3P1E2ZGcCj5tfG03O2FZIcXlhi7Ialtg"
 
 # Telegram Group/Channel Link
 GROUP_LINK = "https://t.me/taskpaybot12"  # Replace with your actual group link
